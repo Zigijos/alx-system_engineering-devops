@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d'\n' iacta iacta
+tail -n 1 iacta iacta | paste -d'\n'
